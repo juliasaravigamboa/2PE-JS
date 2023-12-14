@@ -1,4 +1,5 @@
 class distrito {
+    id;
     nombre;
     poblacion;
     votantes;
@@ -6,7 +7,8 @@ class distrito {
     resultados;
 
 
-    constructor(nombre,poblacion, votantes, inscriptos) {
+    constructor(id, nombre, poblacion, votantes, inscriptos) {
+        this.id = id;
         this.nombre = nombre;
         this.poblacion= poblacion;
         this.votantes = votantes;
